@@ -66,6 +66,31 @@ section h2 {
     margin-bottom: 20px;
 }
 
+/* Hone Section */
+#home {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.home-item {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-item img {
+    width: 100%;
+    height: auto;
+}
+
+.home-item p {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
 /* About Me Section */
 #about {
     background-color: #fff;
