@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheAivanneEffect</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // Add event listener to all navigation buttons
+        const navButtons = document.querySelectorAll(".navBtn");
+    
+        navButtons.forEach(button => {
+          button.addEventListener("click", function() {
+            const targetId = this.getAttribute("data-target"); // Get target section ID
+            const targetElement = document.getElementById(targetId); // Get the section element
+            
+            if (targetElement) {
+              // Scroll to the target section smoothly
+              targetElement.scrollIntoView({ behavior: "smooth" });
+            }
+          });
+        });
+      </script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container header-container">
+            <!-- Left Side: Name and Logo -->
+            <div class="left-side">
+                <div class="logo">
+                    <img src="logo.png" alt="Your Logo">
+                </div>
+                <div class="name">
+                    <h1>TheAivanneEffect</h1>
+                </div>
+            </div>
+
+            <!-- Right Side: About Me, Sample Works, Services, Contact Me -->
+            <div class="right-side">
+                <nav>
+                    <a href="#about">About Me</a>
+                    <a href="#works">Sample Works</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact Me</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello there, I'm Aivanne, a passsionate aspiring Quality Assurance Tester.<br> 
+            I'm dedicated to ensuring that software or werbsite works smoothly and effuciently, identifying bugs, and improving user experience. </p>
+        </div>
+    </section>
+
+    <!-- Sample Works Section -->
+    <section id="works">
+        <div class="container">
+            <h2>Sample Works</h2>
+            <div class="work-item">
+                <img src="bakla.jpg" alt="Project 1">
+                <p>Project 1 Description</p>
+            </div>
+            <div class="work-item">
+                <img src="bakla.jpg" alt="Project 2">
+                <p>Project 2 Description</p>
+            </div>
+            <div class="work-item">
+                <img src="bakla.jpg" alt="Project 3">
+                <p>Project 3 Description</p>
+            </div>
+            <div class="work-item">
+                <img src="bakla.jpg" alt="Project 4">
+                <p>Project 4 Description</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+<section id="services">
+    <div class="container">
+        <h2>Services</h2>
+        <p>As a Quality Assurance Tester, I provide a variety of testing services to ensure your software is robust, user-friendly, and bug-free. Below are the key services I offer:</p>
+        
+        <!-- Manual Testing Box -->
+        <div class="service-box">
+            <h3>Manual Testing</h3>
+            <p>Thoroughly testing applications by manually interacting with the software to identify bugs and ensure functionality meets the requirements.</p>
+        </div>
+
+        
+        <!-- User Acceptance Testing (UAT) Box -->
+        <div class="service-box">
+            <h3>User Acceptance Testing (UAT)</h3>
+            <p>Testing software from the perspective of the end user to verify that it meets all business and functional requirements before release.</p>
+        </div>
+        
+
+        <!-- Automated Testing (Learning) Box -->
+        <div class="service-box">
+            <h3>Automated Testing (Learning)</h3>
+            <p>Writing and running automated test scripts using tools like Selenium to increase testing efficiency and reduce manual effort (currently learning and improving this skill).</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Me Section -->
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p><strong>Name:</strong> John Aivanne Molato</p>
+            <p><strong>Address:</strong> Puerto Princesa City, Palawan, Philippines</p>
+            <p><strong>Email:</strong> molatojohnaivanneofficial@gmail.com</p>
+            <p><strong>Phone:</strong> 09100310483</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>© 2025 TheAivanneEffect. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
