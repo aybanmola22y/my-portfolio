@@ -14,7 +14,7 @@ body {
 
 /* Header */
 header {
-    background-color: #333;
+    background-color: black;
     color: white;
     padding: 20px 0;
 }
@@ -170,33 +170,30 @@ section h2 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-
-
 /* Contact Section */
 #contact {
     background-color: #f9f9f9;
     text-align: center;
 }
 
-form input, form textarea {
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+/* Social Media Icons */
+.social-icons {
+  margin-top: 20px;
 }
 
-form button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.social-icon {
+  display: inline-block;
+  margin: 0 15px;
 }
 
-form button:hover {
-    background-color: #555;
+.social-icon img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover img {
+  transform: scale(1.1); /* Slight zoom effect on hover */
 }
 
 /* Footer */
