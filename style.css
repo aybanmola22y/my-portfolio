@@ -66,10 +66,42 @@ section h2 {
     margin-bottom: 20px;
 }
 
+/* Animated Text */
+.animated-text {
+    font-weight: bold;
+    animation: colorChange 3s infinite;
+}
+
+/* Keyframes for color animation */
+@keyframes colorChange {
+    0% { color: #ff5733; }  /* Red */
+    25% { color: #33ff57; } /* Green */
+    50% { color: #3357ff; } /* Blue */
+    75% { color: #ff33a1; } /* Pink */
+    100% { color: #ff5733; } /* Back to Red */
+
+}
+
 /* Hone Section */
 #home {
     background-color: #f9f9f9;
     text-align: center;
+}
+
+/* Animated Text */
+.animated-text {
+    font-weight: bold;
+    animation: colorChange 3s infinite;
+}
+
+/* Keyframes for color animation */
+@keyframes colorChange {
+    0% { color: #ff5733; }  /* Red */
+    25% { color: #33ff57; } /* Green */
+    50% { color: #3357ff; } /* Blue */
+    75% { color: #ff33a1; } /* Pink */
+    100% { color: #ff5733; } /* Back to Red */
+
 }
 
 .home-item {
@@ -96,6 +128,22 @@ section h2 {
     background-color: #fff;
     text-align: center;
 }
+
+/* Animated Text */
+.animated-text {
+    font-weight: bold;
+    animation: colorChange 3s infinite;
+}
+
+/* Keyframes for color animation */
+@keyframes colorChange {
+    0% { color: #ff5733; }  /* Red */
+    25% { color: #33ff57; } /* Green */
+    50% { color: #3357ff; } /* Blue */
+    75% { color: #ff33a1; } /* Pink */
+    100% { color: #ff5733; } /* Back to Red */
+}
+
 
 /* Sample Works Section */
 #works {
@@ -212,4 +260,6 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+
+
 
